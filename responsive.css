@@ -1,0 +1,329 @@
+@media screen and (max-width: 768px) {
+	.nav1 .logo {
+		float: none;
+		width: auto;
+		justify-content: center;
+	}
+	.nav1 .links {
+		float: none;
+		position: fixed;
+		z-index: 8;
+		left: 0;
+		right: 0;
+		top: 100px;
+		bottom: 100%;
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		justify-content: space-evenly;
+		
+		background-color: rgba(0,0,0,.8);
+		overflow: hidden;
+		box-sizing: border-box;
+		transition: all .5s ease-in-out;
+	}
+	.nav1 .links a {
+		font-size: 20px;
+		color: #fff;
+	}
+	.nav1 .links .button{
+		color: #fff;
+	}
+	.nav1 :checked ~ .links {
+		bottom: 0;
+	}
+	.nav1 .icon-burger {
+		display: block;
+	}
+	.nav1 :checked ~ .icon-burger .line:nth-child(1) {
+		transform: translateY(10px) rotate(225deg);
+	}
+	.nav1 :checked ~ .icon-burger .line:nth-child(3) {
+		transform: translateY(-10px) rotate(-225deg);
+	}
+	.nav1 :checked ~ .icon-burger .line:nth-child(2) {
+		opacity: 0;
+	}
+	
+}
+
+@media  Screen and (max-width:768px){
+    .nav1 ul li a{
+        font-size: 10px;
+
+    }
+}
+@media  Screen and (max-width: 1200px)
+{
+    .cards{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+            }
+    .card{
+        width: 30%;
+        height: 355px;
+        
+        
+    }
+    .title{
+        font-size: 10px;
+        font-weight: 200;
+    }
+    
+}
+@media  screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+        padding-bottom: 400px;
+
+        
+
+	}
+	.carousel-caption h2 {
+        font-size: 25px;
+
+	}
+}
+@media  screen and (max-width: 767px) {
+	
+	.carousel-caption {
+        padding-bottom: 170px;
+
+	}
+	.carousel-caption h2 {
+		font-size: 15px;
+	}
+	.carousel-caption h3 {
+		font-size: 15px;
+	}
+	.carousel-caption a {
+        font-size: 10px;
+		padding: 5px 10px;
+	}
+}
+@media  screen and (max-width: 767px){
+    .box{
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+    }
+    .box .imgBx{
+        margin-left: 0px;
+        flex: 0 0 150px;
+    }
+    .box .imgBx img{
+        width: 300px;
+        height: 300px;
+    }
+    .box .content1{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .box .content1 h2{
+        line-height: 20px;
+        margin: 0;
+        padding-left: 0;
+        color: rgba(23, 166, 248, 1);
+        font-size: 15px;
+        
+    }
+    .box .content1 p{
+        font-size: 10px;
+        margin: 0;
+        padding: 10px 0 0;
+        text-align: justify;
+    }
+    .box .star-icons{
+        font-size: 10px;
+    }
+    .box .star-icons span{
+        font-size: 10px;
+    }
+}
+
+@media  Screen and (max-width: 768px)
+{
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+            }
+    .card{
+        width: 80%;
+        
+    }
+    .cards-images img{
+        height: auto;
+    }
+    .title{
+        font-size: 8px;
+    }
+}
+
+@media  Screen and (max-width: 768px){
+
+    .request_form{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .request_form img{
+        margin: none;
+        display: none;
+    }
+    .request_form label{
+        margin: 0px 0px 0px 0px;
+    }
+    .request_form input{
+        margin: 10px 0px 20px 0px;
+        width: 300px;
+    }
+    .request_form textarea{
+        margin: 0;
+        width: 300px;
+    }
+}
+@media  Screen and (max-width:768px){
+    .footer{
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .footer .f_company{
+        display: none;
+        width: 20px;
+        font-size: 13px;
+    }
+    .footer .f_gallery .f_gallery_imgs{
+        padding: 0;
+        margin: 0;
+    }
+    .f_phone{
+        margin: 0;
+        padding: 0;
+    }
+    .f_company ul li a{
+        display: none;
+        font-size: 12px;
+    }
+    .f_services ul li a{
+        display: none;
+        font-size: 12px;
+    }
+    .f_mail i a{
+        font-size: 12px;
+        font-style: normal;
+    }
+    .f_payment_logo{
+        font-size: 12px;
+    }
+    .f_phone i span{
+        font-size: 12px;
+    }
+    .footer .f_gallery{
+        font-size: 13px;
+        width: 30%;
+    }
+    .footer .f_services{
+        font-size: 13px;
+        width: 20%;
+    }
+    
+}
+
+@media  Screen and (max-width:768px){
+    .footer{
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .footer .f_company{
+        display: none;
+        width: 20px;
+        font-size: 13px;
+    }
+    .footer .f_gallery .f_gallery_imgs{
+        padding: 0;
+        margin: 0;
+    }
+    .f_phone{
+        margin: 0;
+        padding: 0;
+    }
+    .f_company ul li a{
+        display: none;
+        font-size: 12px;
+    }
+    .f_services ul li a{
+        display: none;
+        font-size: 12px;
+    }
+    .f_mail i a{
+        font-size: 12px;
+        font-style: normal;
+    }
+    .f_payment_logo{
+        font-size: 12px;
+    }
+    .f_phone i span{
+        font-size: 12px;
+    }
+    .footer .f_gallery{
+        font-size: 13px;
+        width: 30%;
+    }
+    .footer .f_services{
+        font-size: 13px;
+        width: 20%;
+    }
+    
+}
+/*responsive code for width 600 and less*/
+@media only screen and (max-width: 600px) {
+ .contact-details {
+    width: 100%;
+    height: auto;
+}
+    .nav1 {
+    position: relative;
+    width: 100%;
+    top: 0px;
+    padding: 5px 5px;
+}
+    .nav1 .logo {
+    float: none;
+    width: auto;
+    justify-content: center;
+    width: 120px;
+}
+    .slides .carousel-inner .item {
+    margin-top: 0px;
+/*    height: 70vh;*/
+}
+   .carousel-caption {
+    font-family: 'Poppins', sans-serif;
+    transform: translate(-50%, -50%);
+    right: 50%;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+}
+    .carousel-caption h2 {
+    font-size: 25px;
+}
+    .brandImage {
+    width: 50px;
+    height: auto;
+    margin: 10px;
+}
+}
